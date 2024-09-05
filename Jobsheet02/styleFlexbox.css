@@ -4,15 +4,24 @@ html, body {
 }
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #ddd;
+    background: url('img/field1.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
     line-height: 1.65;
-    padding-bottom: 1000px;
 }
 .container-satu {
-    width: 800px;
     margin: 50px auto;
+    width:1000px;
     background-color: #fff;
     padding: 20px;
     box-sizing: border-box;
     display: flex;
+}
+.sidebar-satu {
+    width: 600px;
+}
+.sidebar-dua {
+    width: 600px;
+}
+body {
 }
