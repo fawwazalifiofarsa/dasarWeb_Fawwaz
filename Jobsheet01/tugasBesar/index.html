@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta content="width=device-width, initial-scale=1.0" />
+    <title>Studi Kasus</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <form method="POST">
+    <fieldset>
+        <legend>Data Mahasiswa</legend>
+        <div class="input-field-row">
+            Nama
+            <input type="text" />
+        </div>
+        <div class="input-field-row">
+            Email
+            <input type="text" />
+        </div>
+        <div class="input-field-row">
+            Tanggal lahir
+            <input type="datetime-local" />
+        </div>
+        <div class="input-field-row">
+            Jenis
+            <select>
+                <option>Laki-laki</option>
+                <option>Perempuan</option>
+            </select>
+        </div>
+        <div class="input-text-area">
+            Alamat
+            <textarea cols="80" rows="10"></textarea>
+        </div>
+    </fieldset>
+    <fieldset>
+        <legend>Komentar</legend>
+        <div class="input-field-row">
+            Darimana Anda mengetahui ini?
+            <select>
+                <option>Google</option>
+                <option>Instagram</option>
+            </select>
+        </div>
+        <div class="input-field-column">
+            Bagaimana menurut anda terhadap buku ini?
+            <div class="input-option-row">
+                <div>
+                    <input type="radio">
+                    <label>Biasa</label><br>
+                </div>
+                <div>
+                    <input type="radio">
+                    <label>Bagus</label><br>
+                </div>
+                <div>
+                    <input type="radio">
+                    <label>Menarik</label><br>
+                </div>
+            </div>
+        </div>
+        <div class="input-text-area">
+            Komentar Anda:
+            <textarea cols="40" rows="6"></textarea>
+        </div>
+        <input type="checkbox">
+        <label>Kirim ke Email bila ada info terbaru</label>
+    </fieldset>
+    <input type="submit" class="button" />
+    </form>
+</body>
+</html>

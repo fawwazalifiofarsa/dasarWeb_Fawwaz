@@ -1,0 +1,44 @@
+fieldset {
+    margin-top: 10px;
+}
+.input-field-row {
+    width: 450px;
+    padding: 5px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.input-field-row input, .input-field-row select {
+    width: 200px;
+}
+.input-field-column {
+    width: 350px;
+    height: 50px;
+    padding: 5px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+.input-field-column  select {
+    width: 350px;
+}
+.input-text-area {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+.input-option-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.button {
+    text-align: center;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+}
