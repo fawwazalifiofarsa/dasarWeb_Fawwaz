@@ -1,13 +1,12 @@
 <?php 
-$loremIpsum = "Lorem ipsum dolor sit amet consectetur adipisicing elit.
-Voluptatem reprehenderit nobis veritatis commodi fugiat molestias
-impedit unde ipsum voluptatum, corrupti minus sit excepturi nostrum
-quisquam? Quos impedit eum nulla optio.";
+echo "Baris\nbaru<br>"; //soal 10.a
+echo 'Baris\nbaru<br>'; //soal 10.b
+echo "Halo\rDunia<br>"; //soal 10.c
+echo "Halo\rDunia<br>"; //soal 10.d
 
-echo "<p>$loremIpsum</p>";
-echo "Panjang karakter: " . strlen($loremIpsum) . "<br>";
-echo "Panjang kata: " . str_word_count($loremIpsum) . "<br>";
+echo "<pre>Halo\tDunia!</pre>"; //soal 10.e
+echo '<pre>Halo\tDunia!</pre>'; //soal 10.f
 
-echo "<p>" . strtoupper($loremIpsum) . "</p>";
-echo "<p>" . strtolower($loremIpsum) . "</p>";
+echo "Katakanlah \"Tidak pada narkoba!\"<br>"; //soal 10.g
+echo 'Katakanlah \'Tidak pada narkoba!\'<br>'; //soal 10.h
 ?>
